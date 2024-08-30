@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main .display-4 {
+    margin-bottom: 20px;
+}
+
+.main .lead {
+    margin-bottom: 30px;
+}
+
+.main .btn-lg {
+    padding: 15px 25px;
+}
+
+.main .partners img {
+    width: 80px;
+    margin-right: 20px;
+}
+
+
+.graphic-image {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    /* Include background image or SVG here */
+}
+/* Add any additional styles here */
+
+.card .btn-outline-dark {
+    margin-top: 15px;
+}
+/* Ensure this is included in your styles.css or <style> block */
+.top-right-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:90px; /* Adjust as necessary */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1; /* Keep on top of other elements */
+}
+
